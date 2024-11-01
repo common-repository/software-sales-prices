@@ -1,0 +1,20 @@
+
+.pwzrt-product-options-wrapper {margin-bottom: 20px;}
+.pwzrt-product-options-wrapper .field {margin-bottom: 10px;}
+.pwzrt-product-options-wrapper .field > label {font-weight: bold;}
+.pwzrt-product-options-wrapper .field.pwzrt-required > label > span:first-child:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+.pwzrt-product-options-wrapper .field > label span.pwzrt-price {font-weight: normal;}
+
+.pwzrt-product-options-wrapper .field .control select {height:initial; line-height: inherit;}
+.pwzrt-product-options-wrapper .field .control input[type="text"] {width: initial; padding:initial; line-height: inherit;}
+.pwzrt-product-options-wrapper .field .control .choice label {display:inline; padding-left: 3px;} 
+.pwzrt-product-options-wrapper .field .control .choice input[type="radio"],
+.pwzrt-product-options-wrapper .field .control .choice input[type="checkbox"] {width: auto;}
+
+.pwzrt-product-options-wrapper .field.pwzrt-required.pwzrt-not-valid .control input[type="text"],
+.pwzrt-product-options-wrapper .field.pwzrt-required.pwzrt-not-valid .control .options-list {border: 1px dotted red;}
+.pwzrt-product-options-wrapper .field.pwzrt-required.pwzrt-not-valid .pwzrt-required-text {color: red; font-style: italic;}
